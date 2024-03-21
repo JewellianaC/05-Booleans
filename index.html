@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleans</title>
+</head>
+<body>
+
+
+
+
+
+<script>
+console.log(3>5);
+
+console.log(typeof true);
+
+console.log(typeof 'false');
+
+console.log(5 == '5.00');
+console.log(5 === '5.00');
+
+if(30>= 16){
+    console.log('You can drive');
+}else{
+    console.log('You can not drive');
+}
+if(15>= 16){
+    console.log('You can drive');
+}else{
+    console.log('You can not drive');
+}
+
+const age = 15;
+
+if(age >= 16){
+    console.log('You can drive');
+}else if(age >= 14){
+console.log('almost there');
+}else{
+    console.log('You can not drive');
+}
+
+if (5){
+    console.log('truthy');
+}
+
+const cartQuantity = 5;
+
+if(cartQuantity > 0){
+    //console.log(variable1);
+}
+
+if (true){
+    'truthy'
+}else{
+    'falsy'
+}
+
+const result = 0 ? 'truthy' : 'falsy';
+console.log(result);
+
+const message = 5 && 'hello';
+console.log(message);
+
+//if(condition){
+    //message = 'hello';
+//}
+
+//const currency = 'EUR' || 'USD'
+
+
+const currency = undefined || 'USD'
+console.log(currency)
+
+</script>
+
+
+
+</body>
+</html>
